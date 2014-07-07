@@ -7,13 +7,17 @@ body{
 	font-family: Thonburi;
 }
 
-header{
+/*header{
 	margin-bottom: 25px;
-}
+}*/
 
 
 header h1{
 	text-align: center;
+}
+
+h2, h3{
+	font-family: Zapfino;
 }
 
 
@@ -25,25 +29,45 @@ header h1{
 	opacity:.7;
 }
 
+.logo h3,
+.menu h3 {
+	font-family: Thonburi;
+
+}
+
 .topic__1,
 .topic__1__content--left,
 .topic__1__content--right,
 .topic__1__content--middle {
-	margin-top: 20px;
 	color:#ecf0f1;
 	opacity:.4;
 }
 
-.topic__1 h2,
+/*.topic__1 h2,
 .topic__1__content--left h3,
 .topic__1__content--right h3,
 .topic__1__content--middle h3 {
 
 	font-family: Zapfino;
-}
+}*/
 
 .topic__1{
 	opacity:.6;
+}
+
+.topic__1__content--left h3,
+.topic__1__content--middle h3,
+.topic__1__content--right h3 {
+	background-color: gray;
+	opacity:.8;
+
+}
+
+.topic__1__content--left p,
+.topic__1__content--middle p,
+.topic__1__content--right p {
+	background-color: gray;
+	opacity:.8;
 }
 
 .footer__container {
@@ -51,8 +75,6 @@ header h1{
 }
 
 .footer__contact {
-
-	margin-top: 20px;
 	color:#ecf0f1;
 	opacity:.7;
 }
