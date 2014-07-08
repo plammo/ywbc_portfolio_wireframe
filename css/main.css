@@ -50,7 +50,20 @@ h2, h3{
 
 .row1 {
 
-	margin-top:80px;
+	margin-top:100px;
+}
+
+.row2 p{
+
+	font-size: 1.6em;
+	margin-top:0;
+	line-height: 150%;
+	word-spacing: .1em;
+	color:#777;
+}
+
+.row3 p {
+
 }
 
 .topic__1 p {
@@ -60,7 +73,14 @@ h2, h3{
 
 .topic__1 h2 {
 	line-height: 150%;
-	font-size: 3em;
+	font-size: 8.5em;
+	text-align: center;
+}
+
+.image__paul {
+
+	border:solid 1px #333;
+	min-height:360px;
 }
 
 .topic__1,
@@ -98,7 +118,8 @@ h2, h3{
 
 .topic__1__content--left p,
 .topic__1__content--middle p,
-.topic__1__content--right p {
+.topic__1__content--right p,
+ {
 	color:#555;
 	font-family: "Geneva", Tahoma, sans-serif;
 	line-height: 150%;
