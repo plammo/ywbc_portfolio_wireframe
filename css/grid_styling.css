@@ -21,10 +21,10 @@
 		clear: both;
 	}
 
-	/*[class*='col-']:last-of-type {
+	[class*='col-']:last-of-type {
 		padding-right: 0;
 
-	}*/
+	}
 
 	.content{
 		//background: black;
