@@ -248,6 +248,9 @@ label{
 
 }
 
+.contact__email_me {
+	float: right;
+}
 
 
 .contact__email{
